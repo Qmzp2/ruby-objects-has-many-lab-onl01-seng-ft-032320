@@ -25,6 +25,10 @@ def self.post_count
   Post.all.count
 end
 
+def all
+  @all
+end
+
 
   
 end
