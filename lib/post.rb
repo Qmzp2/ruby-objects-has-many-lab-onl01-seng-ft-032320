@@ -19,6 +19,9 @@ end
     @@all
   end
  
+ def author_name
+   author = Author.name
+end
 
   
 end
