@@ -20,8 +20,12 @@ end
   end
  
  def author_name
-   self.author.name
-end
+    if self.author
+      self.author.name
+    else
+      nil
+    end
+  end
 
 
 
