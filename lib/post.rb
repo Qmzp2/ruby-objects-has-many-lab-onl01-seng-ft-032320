@@ -19,6 +19,8 @@ end
     @@all
   end
  
+ def author_name
+   
   
   
 end
