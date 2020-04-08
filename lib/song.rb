@@ -20,7 +20,7 @@ end
   end
   
  def artist_name
-   if artist.name.exists?()
+   if artist.name.exists?("")
    self.artist.name
  else
    return nil
