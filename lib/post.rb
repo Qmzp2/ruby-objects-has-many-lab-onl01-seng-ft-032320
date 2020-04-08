@@ -23,9 +23,6 @@ end
    self.author.name
 end
 
-def name
-  author_name
-end
 
 
   
