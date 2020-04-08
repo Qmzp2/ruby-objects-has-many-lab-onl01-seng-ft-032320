@@ -20,7 +20,9 @@ end
   end
   
  def artist_name
+   if artist.nameexist?
    self.artist.name
+   
  end
  
   
