@@ -19,9 +19,8 @@ end
     @@all
   end
  
- def author_name
+ def self.author_name
    author = Author.name
-   author
 end
 
   
