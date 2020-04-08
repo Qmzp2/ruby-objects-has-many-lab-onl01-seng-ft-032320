@@ -20,7 +20,8 @@ end
   end
  
  def author_name
-   author = Author
+   author = Author.name
+   author
 end
 
   
