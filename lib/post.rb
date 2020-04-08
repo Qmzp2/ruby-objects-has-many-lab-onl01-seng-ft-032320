@@ -19,7 +19,7 @@ end
     @@all
   end
  
- def self.author_name
+ def author_name(author)
    author = Author.name
 end
 
